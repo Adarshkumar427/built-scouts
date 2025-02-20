@@ -82,10 +82,15 @@ const App = () => {
       </Box>
 
       <div
-        style={{ display: "flex", justifyContent: "space-around", gap: "10px" }}
+        style={{
+          display: "flex",
+          flexWrap: "wrap",
+          justifyContent: "space-around",
+          gap: "10px",
+        }}
       >
         <h1 style={{ size: "64px" }}>We provide</h1>
-        <p style={{ width: "650px" }}>
+        <p style={{ width: "650px", marginLeft: "20px" }}>
           Personalized, innovative, and seamless home-building solutions that
           bring homeowners’ dream spaces to life, through expert teams and a
           customer-first approach
@@ -129,6 +134,7 @@ const App = () => {
         <div
           style={{
             display: "flex",
+            flexWrap: "wrap",
             justifyContent: "space-between",
             alignItems: "center",
             width: "100%",
@@ -160,6 +166,7 @@ const App = () => {
         <div
           style={{
             display: "flex",
+            flexWrap: "wrap",
             justifyContent: "space-between",
             alignItems: "center",
             width: "100%",
@@ -217,6 +224,7 @@ const App = () => {
         <div
           style={{
             display: "flex",
+            flexWrap: "wrap",
             justifyContent: "space-between",
             alignItems: "center",
             width: "100%",
