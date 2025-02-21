@@ -11,9 +11,9 @@ const Footer = () => {
         style={{
           display: "flex",
           flexWrap: "wrap",
-          //   justifyContent: "space-around",
           width: "100%",
           marginTop: "150px",
+          marginLeft: "10px",
         }}
       >
         <div>
@@ -33,7 +33,7 @@ const Footer = () => {
             </p>
             <TrendingFlatIcon />
           </div>
-          <h2 style={{ fontWeight: "normal" }}>FAQ</h2>
+          <h2 style={{ fontWeight: "normal", marginTop: "3px" }}>FAQ</h2>
         </div>
         <div>
           <div>
@@ -52,7 +52,13 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div style={{ borderTop: "1px solid black" }}>
+      <div
+        style={{
+          borderTop: "1px solid black",
+
+          padding: "10px",
+        }}
+      >
         <p>&copy; BuildScouts {new Date().getFullYear()} All rights reserved</p>
       </div>
     </div>

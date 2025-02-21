@@ -90,7 +90,7 @@ const App = () => {
         }}
       >
         <h1 style={{ size: "64px" }}>We provide</h1>
-        <p style={{ width: "650px", marginLeft: "20px" }}>
+        <p style={{ width: "650px", marginLeft: "15px" }}>
           Personalized, innovative, and seamless home-building solutions that
           bring homeowners’ dream spaces to life, through expert teams and a
           customer-first approach
@@ -103,34 +103,46 @@ const App = () => {
           display: "flex",
           flexWrap: "wrap",
           gap: "30px",
-          padding: "20px",
+          padding: "10px",
         }}
       >
-        <Cards
-          image={VectorImg1}
-          title="Customer Home Building"
-          para="offring services for your dream homes"
-        />
-        <Cards
-          image={VectorImg2}
-          title="Team Building"
-          para="Helping clients build their own team"
-        />
-        <Cards
-          image={VectorImg1}
-          title="Project Management"
-          para="Ensuring a seamless building process"
-        />
-        <Cards
-          image={Group}
-          title="Home Visualization"
-          para="Visualize their home renderings"
-        />
-        <Cards
-          image={VectorImg1}
-          title="Get a Quotation"
-          para="Allow users to easily request a personalized cost"
-        />
+        <Grid container spacing={4} justifyContent="start">
+          <Grid item xs={12} sm={6} md={4}>
+            <Cards
+              image={VectorImg1}
+              title="Custom Home Building"
+              para="Offering services for your dream homes"
+            />
+          </Grid>
+          <Grid item xs={12} sm={6} md={4}>
+            <Cards
+              image={VectorImg2}
+              title="Team Building"
+              para="Helping clients build their own team"
+            />
+          </Grid>
+          <Grid item xs={12} sm={6} md={4}>
+            <Cards
+              image={VectorImg1}
+              title="Project Management"
+              para="Ensuring a seamless building process"
+            />
+          </Grid>
+          <Grid item xs={12} sm={6} md={4}>
+            <Cards
+              image={Group}
+              title="Home Visualization"
+              para="Visualize their home renderings"
+            />
+          </Grid>
+          <Grid item xs={12} sm={6} md={4}>
+            <Cards
+              image={VectorImg1}
+              title="Get a Quotation"
+              para="Allow users to easily request a personalized cost"
+            />
+          </Grid>
+        </Grid>
         <div
           style={{
             display: "flex",

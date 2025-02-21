@@ -7,9 +7,10 @@ const Cards = ({ image, title, para }) => {
       <Card
         variant="outlined"
         style={{
-          width: "330px",
-          height: "250px",
-          padding: "16px",
+          width: "350px",
+          height: "270px",
+          marginInline: "auto",
+          padding: "10px",
           borderRadius: "12px",
           boxShadow: "0px 4px 10px rgba(0, 0, 0, 0.1)",
           display: "flex",
@@ -45,6 +46,7 @@ const Cards = ({ image, title, para }) => {
           style={{
             display: "flex",
             justifyContent: "flex-end",
+            marginTop: "20px",
           }}
         >
           <ArrowOutwardIcon />

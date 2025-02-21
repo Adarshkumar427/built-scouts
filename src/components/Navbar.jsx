@@ -28,7 +28,7 @@ const Navbar = () => {
   return (
     <AppBar position="static" color="transparent" elevation={0}>
       <Toolbar sx={{ justifyContent: "space-between" }}>
-        <Typography variant="h6" fontWeight="bold">
+        <Typography variant="h6" fontWeight="bold" marginTop="10px">
           <img src="/Vector.svg" alt="Logo" width="129" height="65" />
         </Typography>
         {isMobile ? (
